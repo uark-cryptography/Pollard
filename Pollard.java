@@ -32,8 +32,8 @@ class Pollard{
 		BigInteger b = new BigInteger("220459");
 		BigInteger c = new BigInteger("48356747");
 		
-		System.out.println("(a)1739 = " + p.factor(a) + " and " + a.divide(p.factor(a)));
-		System.out.println("(b)220459 = " + p.factor(b) + " and " + b.divide(p.factor(b)));
-		System.out.println("(c)48356747 = " + p.factor(c) + " and " + c.divide(p.factor(c)));					
+		System.out.println("(a)" + a + " = " + p.factor(a) + " and " + a.divide(p.factor(a)));
+		System.out.println("(b)" + b + " = " + p.factor(b) + " and " + b.divide(p.factor(b)));
+		System.out.println("(c)" + c + " = " + p.factor(c) + " and " + c.divide(p.factor(c)));					
 	}
 }
