@@ -37,3 +37,5 @@ class Pollard{
 		System.out.println("(c)" + c + " = " + p.factor(c) + " and " + c.divide(p.factor(c)));					
 	}
 }
+
+//new commit
